@@ -73,6 +73,16 @@ const HomePage = ({ onSectionChange }: HomePageProps) => {
                 ORCID
               </Button>
             </a>
+            <a 
+              href="https://drive.google.com/file/d/1hES_B_XBY3YVztHCXp3oy4SgibYw4Xhs/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button className="flex items-center gap-2">
+                <ExternalLink className="w-4 h-4" />
+                Resume
+              </Button>
+            </a>
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 text-text-light">
@@ -90,19 +100,6 @@ const HomePage = ({ onSectionChange }: HomePageProps) => {
         </div>
       </section>
 
-      {/* Key Highlights */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Key Highlights</h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {highlights.map((highlight, index) => (
-              <Card key={index} className="p-4 text-center shadow-lg border-0">
-                <p className="text-muted-foreground font-medium">{highlight}</p>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Quick Navigation */}
       <section className="py-16 px-4 bg-section-bg">
@@ -136,6 +133,9 @@ const HomePage = ({ onSectionChange }: HomePageProps) => {
               <Badge variant="secondary" className="text-sm">Currently Available</Badge>
               <p className="text-lg text-muted-foreground">
                 Pursuing Integrated MS in Quantitative Economics and Data Science at BIT Mesra (2021-2026)
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Currently working at Institute of Cancer Research London as researcher, exploring Cancer genomics and bioinformatics, interested in AI in healthcare and how we can utilize AI/ML/Data Science to solve the most pressing healthcare problems.
               </p>
               <p className="text-muted-foreground">
                 Actively working on machine learning research, startup development, and seeking opportunities 
