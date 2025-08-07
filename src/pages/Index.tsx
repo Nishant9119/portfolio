@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Awards from "@/components/Awards";
 import Coursework from "@/components/Coursework";
 import VolunteerExperience from "@/components/VolunteerExperience";
+import Projects from "@/components/Projects";
 import References from "@/components/References";
 
 const Index = () => {
@@ -54,6 +55,12 @@ const Index = () => {
             <VolunteerExperience />
           </div>
         );
+      case "projects":
+        return(
+          <div className="pt-16">
+            <Projects/>
+          </div>
+        )
       case "references":
         return (
           <div className="pt-16">
