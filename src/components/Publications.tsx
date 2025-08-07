@@ -13,7 +13,7 @@ const Publications = () => {
       id: "[2]",
       title: "Integrative Approaches for Skin Cancer Detection and Classification : A Dual modal Analysis",
       authors: "Sharma, Nishant; Pandey, M. K. (2025).",
-      venue: "[AICVMD-2025]"
+      venue: "[Accepted at AICVMD-2025]"
     },
     {
       id: "[3]",
