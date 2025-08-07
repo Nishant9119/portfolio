@@ -9,7 +9,7 @@ import Awards from "@/components/Awards";
 import Coursework from "@/components/Coursework";
 import VolunteerExperience from "@/components/VolunteerExperience";
 import References from "@/components/References";
-import Projects from "@/components/projects";
+import Projects from "@/components/Projects";
 
 const Index = () => {
   const [currentSection, setCurrentSection] = useState("home");
