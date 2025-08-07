@@ -58,9 +58,9 @@ const Index = () => {
       case "projects":
         return(
           <div className="pt-16">
-            <Projects/>
+            <Projects />
           </div>
-        )
+        );
       case "references":
         return (
           <div className="pt-16">
