@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Award, ExternalLink } from "lucide-react";
-import awardImage from "@/assets/award-ceremony.png";
+import awardImage from "/lovable-uploads/b708c6e1-35d4-4c12-8282-2e1bf43fd122.png";
 
 const Awards = () => {
   const awards = [
@@ -16,13 +16,15 @@ const Awards = () => {
       title: "First Prize-Ministry of Cooperation Hackathon",
       organization: "Ministry of Cooperation, Government of India",
       date: "August 2023",
-      description: "Secured First Rank in India in a Hackathon to design and develop a Dashboard for the CRCS Portal of Ministry of Cooperation, Government of India. Received Cash Prize of INR 1 Lakh from Hon. Home Minister Mr. Amit Shah."
+      description: "Secured First Rank in India in a Hackathon to design and develop a Dashboard for the CRCS Portal of Ministry of Cooperation, Government of India. Received Cash Prize of INR 1 Lakh from Hon. Home Minister Mr. Amit Shah.",
+      link: "https://drive.google.com/file/d/1ZjkOExVNI6xjPUTcdBs71XBAjOXMr9sv/view?usp=drive_link"
     },
     {
       title: "Runner Up – Kartavya Case Study competition",
       organization: "Department of Management, Birla Institute of Technology",
       date: "October 2023",
-      description: "Secured second position in a national level Sustainability case study competition organized by Department of Management, BIT Mesra."
+      description: "Secured second position in a national level Sustainability case study competition organized by Department of Management, BIT Mesra.",
+      link: "https://drive.google.com/file/d/18JI4m2ST8A579RpGxcuuG870MTMHmfeX/view?usp=drive_link"
     }
   ];
 
