@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { ExternalLink } from "lucide-react";
+import {  Briefcase, ExternalLink } from "lucide-react";
 
 const Projects = () => {
   const projects = [

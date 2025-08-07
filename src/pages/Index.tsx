@@ -8,8 +8,8 @@ import Skills from "@/components/Skills";
 import Awards from "@/components/Awards";
 import Coursework from "@/components/Coursework";
 import VolunteerExperience from "@/components/VolunteerExperience";
-import Projects from "@/components/Projects";
 import References from "@/components/References";
+import Projects from "@/components/projects";
 
 const Index = () => {
   const [currentSection, setCurrentSection] = useState("home");
