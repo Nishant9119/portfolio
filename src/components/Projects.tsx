@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import {  Briefcase, ExternalLink } from "lucide-react";
+import {  Briefcase, ExternalLink, Folder, FolderOpen } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -24,29 +24,34 @@ const Projects = () => {
   ];
 
   return (
-    <div className="my-10">
-      <h2 className="text-2xl font-semibold mb-4">Data Visualization Projects</h2>
-      <div className="grid md:grid-cols-2 gap-4">
-        {projects.map((project, idx) => (
-          <Card key={idx} className="p-4 space-y-2">
-            <div className="flex justify-between items-start">
-              <div>
-                <h3 className="text-xl font-medium">{project.title}</h3>
-                <p className="text-sm text-muted-foreground">{project.description}</p>
+    <section className="py-12 px-4">
+      <div className="max-w-4xl mx-auto">
+        <div className="flex items-center gap-3 mb-8">
+          <FolderOpen className="w-6 h-6 text-primary" />
+          <h2 className="text-3xl font-bold text-foreground">Projects</h2>
+        </div>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          {projects.map((projects, index) => (
+            <Card key={index} className="p-6 shadow-lg border-0">
+              <div className="flex items-center gap-2 mb-4">
+                <h3 className="font-semibold text-foreground">{projects.title}</h3>
               </div>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                <ExternalLink size={18} />
-              </a>
-            </div>
-          </Card>
-        ))}
+              <p className="text-sm text-muted-foreground mb-4">{projects.description}</p>
+              <div className="flex justify-end">
+                <a
+                  href={projects.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 transition-colors">
+                  <ExternalLink size={18} />
+                </a>
+              </div>
+            </Card>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
