@@ -33,7 +33,7 @@ const Navigation = ({ currentSection, onSectionChange }: NavigationProps) => {
         <div className="flex justify-between items-center h-16">
           <button
             onClick={() => handleSectionClick("home")}
-            className="text-xl font-bold text-foreground hover:text-primary transition-colors"
+            className="text-xl font-bold text-foreground hover:text-primary transition-colors text-left whitespace-nowrap -ml-12"
           >
             Nishant Sharma
           </button>

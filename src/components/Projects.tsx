@@ -26,11 +26,11 @@ const Projects = () => {
   return (
     <section className="py-12 px-4">
       <div className="max-w-4xl mx-auto">
-        <div className="flex items-center gap-3 mb-8">
+        <div className="flex items-center gap-3 mb-2">
           <FolderOpen className="w-6 h-6 text-primary" />
           <h2 className="text-3xl font-bold text-foreground">Projects</h2>
         </div>
-        
+        <p className="text-lg text-muted-foreground mb-8 font-semibold">Data Visualization Projects</p>
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((projects, index) => (
             <Card key={index} className="p-6 shadow-lg border-0">
