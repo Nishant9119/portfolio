@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Home, GraduationCap, Briefcase, BookOpen, Code, Award, Heart, Users } from "lucide-react";
+import { Menu, X, Home, GraduationCap, Briefcase, BookOpen, Code, Award, Heart, Users,FolderOpen } from "lucide-react";
 
 interface NavigationProps {
   currentSection: string;
@@ -18,6 +18,7 @@ const Navigation = ({ currentSection, onSectionChange }: NavigationProps) => {
     { id: "skills", label: "Skills", icon: <Code className="w-4 h-4" /> },
     { id: "awards", label: "Awards", icon: <Award className="w-4 h-4" /> },
     { id: "volunteer", label: "Volunteer", icon: <Heart className="w-4 h-4" /> },
+    { id: "projects", label: "Projects", icon: <FolderOpen className="w-4 h-4" /> },
     { id: "references", label: "References", icon: <Users className="w-4 h-4" /> },
   ];
 

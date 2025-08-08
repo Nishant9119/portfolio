@@ -56,7 +56,7 @@ const Index = () => {
           </div>
         );
       case "projects":
-        return(
+        return (
           <div className="pt-16">
             <Projects />
           </div>
