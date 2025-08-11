@@ -4,6 +4,7 @@ import HomePage from "@/components/HomePage";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Publications from "@/components/Publications";
+import Blog from "@/components/Blog";
 import Skills from "@/components/Skills";
 import Awards from "@/components/Awards";
 import Coursework from "@/components/Coursework";
@@ -35,6 +36,12 @@ const Index = () => {
         return (
           <div className="pt-16">
             <Publications />
+          </div>
+        );
+      case "blog":
+        return (
+          <div className="pt-16">
+            <Blog />
           </div>
         );
       case "skills":

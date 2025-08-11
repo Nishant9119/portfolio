@@ -110,3 +110,37 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .prose {
+    @apply text-foreground;
+  }
+  
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    @apply text-foreground font-semibold;
+  }
+  
+  .prose p {
+    @apply text-muted-foreground leading-relaxed;
+  }
+  
+  .prose strong {
+    @apply text-foreground font-semibold;
+  }
+  
+  .prose a {
+    @apply text-primary hover:text-primary/80 underline;
+  }
+  
+  .prose ul, .prose ol {
+    @apply text-muted-foreground;
+  }
+  
+  .prose li {
+    @apply text-muted-foreground;
+  }
+  
+  .prose blockquote {
+    @apply border-l-4 border-primary/20 pl-4 italic text-muted-foreground;
+  }
+}
