@@ -23,11 +23,11 @@ const blogPosts: BlogPost[] = [
     title: "What is Hirebuddy?",
     subtitle: "Making job hunting effortless for job seekers everywhere",
     excerpt: "Finding a job sucks and we're here to fix that. Learn how Hirebuddy automates your entire job search process.",
-    author: "Sarvagya",
+    author: "Nishant",
     date: "2024-01-01",
     readTime: "6 min read",
     category: "Company",
-    content: `Finding a job sucks and we're here to fix that.
+    content: `Finding a job sucks and we're here to fix that.<br>
 
 Hi everyone, how are you doing? If you've ended up on this page, chances are you're either looking for a job, one of our competitors, an investor (pls give us your money), or someone who just likes to read. Don't worry. We got you. In today's blog we'll be going over Hirebuddy- what exactly is it, and how can we help you out?
 
@@ -69,11 +69,35 @@ We believe job-seeking should be about you -your skills, your goals - not about 
 
 Hirebuddy handles the repetitive stuff so you can focus on preparing, upskilling, and landing the job.
 
-We've helped multiple people land roles so far and would love to help you out too! Whether you're a student looking for internships, a fresh graduate, or a working professional switching jobs — Hirebuddy works for you. Check us out today!
+We've helped multiple people land roles so far and would love to help you out too! Whether you're a student looking for internships, a fresh graduate, or a working professional switching jobs — Hirebuddy works for you.
+<br><br>Check us out today!<br>
 
-Best
-NIshant.`
-  }
+Best<br>
+Nishant.`
+  },
+/*
+    {
+    id: "2",
+    title: "Intelligent Enterprise Assistant: Enhancing Organizational Efficiency through AI-driven Chatbot Integration",
+    subtitle: "Implementation of RAG's and LLM's on BRSR reports of companies",
+    excerpt: "For sustainability consultants—no need to open multiple PDFs to get info about BRSR reports of companies.You can get all the info on WhatsApp, with no need to go to ChatGPT or Perplexity.",
+    author: "Nishant",
+    date: "2025-08-14",
+    readTime: "10 min read",
+    category: "Technical Blog",
+    content: `
+    Problem Statement:<br>
+    (1)Imagine you have 1,000 PDF files, each containing crucial information you need to retrieve. What would you do?
+Typically, you would first try to locate the correct PDF where the information is stored and then search within that document for the specific query. Now, how much time would this take? Even if you're very quick, it might take around 10-30 minutes. Otherwise, it could take hours, and you might still be left scratching your head.<br><br>
+(2)There are platforms that can perform information retrieval tasks, but the information retrieved often lacks accuracy and precision, which is crucial in many cases. 
+Sometimes, due to the involvement of large language models (LLMs), the final answer may hallucinate and provide irrelevant or incorrect information, falling short of expectations.<br><br>
+Best<br>
+Solution:<br>
+<img src="C:\\Users\\Nikhil Sharma\\Desktop\\portfolio\\portfolio\\src\\components\\solution.png" alt="Solution" style="max-width:10%; height:auto; margin-top:10px;" /><br>
+Technical Architecture:<br>
+
+Nishant.`
+  }*/
 ];
 
 const Blog = () => {
